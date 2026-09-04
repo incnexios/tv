@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="100" fill="#030712"/>
+  <circle cx="256" cy="256" r="180" fill="url(#grad)" opacity="0.8"/>
+  <path d="M256 120 L256 392 M120 256 L392 256" stroke="#00F2FE" stroke-width="12" stroke-linecap="round"/>
+  <path d="M160 160 Q 256 256 352 160" stroke="#00F2FE" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <defs>
+    <radialGradient id="grad" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(256 256) rotate(90) scale(180)">
+      <stop stop-color="#00F2FE" offset="0%"/>
+      <stop stop-color="#4FACFE" offset="100%"/>
+    </radialGradient>
+  </defs>
+</svg>
